@@ -3,9 +3,15 @@
     src: url(Fonts/moderna/MODERNA_.TTF);
     font-weight: 500;
 }
+@font-face {
+    font-family: "shadows";
+    src: url(Fonts/Shadows/ShadowsIntoLight-Regular.ttf);
+    font-weight: 400;
+}
 
 img {width: 800px;}
 h1 {color: rgba(104, 6, 6, 0.904);
 font-family: "moderna";
 text-align: center;}
 h2 {font-family: "moderna";}
+p {font-family: "shadows";}
