@@ -8,7 +8,7 @@
     src: url(Fonts/Shadows/ShadowsIntoLight-Regular.ttf);
     font-weight: 400;
 }
-html {background-image: rgba(105, 105, 105, 0.295);}
+html {background-color: rgba(105, 105, 105, 0.295);}
 h1 {
     color: rgba(104, 6, 6, 0.904);
 font-family: "moderna",sans-serif;
