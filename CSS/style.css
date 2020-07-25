@@ -8,16 +8,14 @@
     src: url(Fonts/Shadows/ShadowsIntoLight-Regular.ttf);
     font-weight: 400;
 }
-
-img {
-    width: 400px;}
-
+html {background-image: rgba(105, 105, 105, 0.295);}
 h1 {
     color: rgba(104, 6, 6, 0.904);
 font-family: "moderna",sans-serif;
 text-align: center;}
 
 h2 {
+    color: black;
     font-family:"moderna",sans-serif;}
 
 h3 {
@@ -32,4 +30,16 @@ h3 {
 .bold {
     font-weight: 800;}
 
-.img-div {background-color: gray;}
+.img-div {
+    
+    background-color: rgb(128, 128, 128);}
+
+.menu {
+    box-shadow: 0 0 9px black;
+    background-color: rgb(161, 164, 170);
+position: relative;}
+
+img {
+    box-shadow: 0 0 9px black;
+    margin: 0.5%;
+width: 15.4%;}
