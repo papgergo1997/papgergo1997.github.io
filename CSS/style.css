@@ -9,9 +9,27 @@
     font-weight: 400;
 }
 
-img {width: 400px;}
-h1 {color: rgba(104, 6, 6, 0.904);
-font-family: "moderna";
+img {
+    width: 400px;}
+
+h1 {
+    color: rgba(104, 6, 6, 0.904);
+font-family: "moderna",sans-serif;
 text-align: center;}
-h2 {font-family: "moderna";}
-p {font-family: "shadows";}
+
+h2 {
+    font-family:"moderna",sans-serif;}
+
+h3 {
+    font-family: "shadows","moderna",sans-serif;}
+
+#Conceptheader {
+    color: gold;}
+
+.Content {
+    font-family: "shadows","moderna",sans-serif;}
+
+.bold {
+    font-weight: 800;}
+
+.img-div {background-color: gray;}
