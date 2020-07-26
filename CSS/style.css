@@ -8,9 +8,14 @@
     src: url(Fonts/Shadows/ShadowsIntoLight-Regular.ttf);
     font-weight: 400;
 }
-html {background-color: rgba(105, 105, 105, 0.295);}
+html {background-image: url(../img/vikingpatern.jpg);
+background-position: left;
+background-repeat: repeat-y;
+background-size: 20%;
+}
+
 h1 {
-    color: rgba(104, 6, 6, 0.904);
+    color: rgba(9, 62, 94, 0.904);
 font-family: "moderna",sans-serif;
 text-align: center;}
 
@@ -22,24 +27,37 @@ h3 {
     font-family: "shadows","moderna",sans-serif;}
 
 #Conceptheader {
-    color: gold;}
+    color: black ;
+margin-left: 246px;}
+
+#Realityheader {
+    margin-left: 246px;
+}
 
 .Content {
-    font-family: "shadows","moderna",sans-serif;}
+    font-family: "shadows","moderna",sans-serif;
+margin-left: 246px;}
 
 .bold {
     font-weight: 800;}
 
 .img-div {
     
-    background-color: rgb(128, 128, 128);}
+    background-color: rgb(128, 128, 128);
+margin-left: 244px;}
 
 .menu {
     box-shadow: 0 0 9px black;
-    background-color: rgb(161, 164, 170);
-position: relative;}
+    background-color: rgbs(161, 164, 170);
+position: relative;
+margin-left: 244px;}
+
+.Headline-div { background-color: wheat;
+   margin-left: 244px;
+
+}
 
 img {
     box-shadow: 0 0 9px black;
     margin: 0.5%;
-width: 15.4%;}
+width: 32%;}
