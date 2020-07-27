@@ -11,8 +11,60 @@
 
 
 img {width: 800px;}
-h1 {color: rgba(104, 6, 6, 0.904);
-font-family: "moderna";
+
+html {background-image: url(../img/jGlzr.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;}
+
+
+h1 {
+    color: rgba(9, 62, 94, 0.904);
+font-family: "moderna",sans-serif;
 text-align: center;}
-h2 {font-family: "moderna";}
-p {font-family: "shadows";}
+
+h2 {
+    color: black;
+    font-family:"moderna",sans-serif;}
+
+h3 {
+    font-family: "shadows","moderna",sans-serif;}
+
+#Conceptheader {
+    color: black ;
+margin-left: 0%;}
+
+#Realityheader {
+    margin-left: 0%;
+}
+
+.Content {
+    font-family: "shadows","moderna",sans-serif;
+margin-left: 0%;}
+
+.bold {
+    font-weight: 800;}
+
+.img-div {
+    box-shadow: 0 0 20px black;
+    background-color: rgb(128, 128, 128);
+margin-left: 0%;}
+
+.menu {
+    box-shadow: 0 0 20px black;
+    background-image: url(../img/jGlzr.png);
+position: relative;
+margin-left: 0%;}
+
+.Headline-div { box-shadow: 0 0 20px black;
+    background-color: wheat;
+   margin-left: 0%;
+
+}
+
+
+
+img {
+    box-shadow: 0 0 9px black;
+    margin: 0.5%;
+width: 32%;}
