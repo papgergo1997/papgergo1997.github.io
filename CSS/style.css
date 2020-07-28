@@ -64,7 +64,6 @@ margin-left: 0%;
 
 .Headline-div { 
     box-shadow: 0 0 20px black;
-    ;
    margin-left: 0%;
 }
 
@@ -72,4 +71,8 @@ img {
     box-shadow: 0 0 9px black;
     margin: 0.5%;
 width: 32%;
+}
+
+.albums-div {
+    display: inline;
 }
