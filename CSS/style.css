@@ -13,15 +13,8 @@ img {
     width: 800px;
 }
 
-html {
-    background-image: url(../img/background.jpg);
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 100%;
-}
-
 h1 {
-    color: rgba(9, 62, 94, 0.904);
+    color:black;
 font-family: "moderna",sans-serif;
 text-align: center;
 }
@@ -65,14 +58,13 @@ margin-left: 0%;
 
 .menu {
     box-shadow: 0 0 20px black;
-    background-image: url(../img/jGlzr.png);
-position: relative;
+    position: relative;
 margin-left: 0%;
 }
 
 .Headline-div { 
     box-shadow: 0 0 20px black;
-    background-color: wheat;
+    ;
    margin-left: 0%;
 }
 
