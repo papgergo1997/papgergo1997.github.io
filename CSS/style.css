@@ -42,8 +42,10 @@ margin-left: 0%;
 }
 
 .Content {
+    color: rgb(0, 0, 0);
     font-family: "shadows","moderna",sans-serif;
 margin-left: 0%;
+font-size: 19px;
 }
 
 .bold {
