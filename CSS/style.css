@@ -62,6 +62,7 @@ margin-left: 0%;
     box-shadow: 0 0 20px black;
     position: relative;
 margin-left: 0%;
+text-decoration: none;
 }
 
 .Headline-div { 
@@ -77,4 +78,30 @@ width: 32%;
 
 .albums-div {
     display: inline;
+}
+
+.login-div {
+    box-shadow: 0 0 9px black;
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+
+.login-div input {
+    display: block;
+}
+
+.login-div input[type="email"] {
+    border: solid 1px blue;
+}
+
+.login-div input[name="password"] {
+    border: solid 1px red;
+}
+
+.login-div button:hover {
+    box-shadow: 2px 2px 3px black;
+}
+
+.login-div input:focus {
+    box-shadow: 2px 2px 3px black;
 }
