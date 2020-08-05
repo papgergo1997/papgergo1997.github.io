@@ -22,9 +22,9 @@ text-align: center;
 h2 {
     color: black;
     font-family:"moderna",sans-serif;
-    margin-right: 8%;
+    margin-right: 9%;
     display: inline;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 
 h3 {
@@ -62,7 +62,6 @@ margin-left: 0%;
     box-shadow: 0 0 20px black;
     position: relative;
 margin-left: 0%;
-text-decoration: none;
 }
 
 .Headline-div { 
@@ -104,4 +103,8 @@ width: 32%;
 
 .login-div input:focus {
     box-shadow: 2px 2px 3px black;
+}
+
+.albums-div input[name="insect"] {
+    color:white;
 }
