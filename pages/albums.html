@@ -9,14 +9,29 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="../bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+
 <style>
-    html {
-        background-image: url(../img/backgroundalbums.jpg);
-        background-position: center;
-        background-repeat: repeat;
-        background-size: 150%;
+    body {
+            height: 100%;
+        }
+
+        html {
+            height: 180%;
+        }
+
+        .bg {
+            background-image: url(/img/backgroundalbums.jpg);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    img {
+        box-shadow: 0 0 20px black;
+        width: 35%;
+        margin-left: 3%;
+        margin-right: 0.5%;
     }
-    img {box-shadow: 0 0 20px black;}
 </style>
 
 <body>
@@ -54,25 +69,27 @@
         </div>
     </nav>
 
+    <div class="bg">
     <h1>Albums</h1>
 
-    
+
     <div class="albums-div">
-    <a href="/pages/birds.html">
-        <div class="albums-div"><img src="/img/vizestengelic_.jpg" alt="Tengelic">
-            <h3>Birds</h3>
-        </div>
-    </a>
-    <a href="/pages/powerofnature.html">
-        <div class="albums-div"><img src="/img/gleccserto_.jpg" alt="gleccserto">
-            <h3>Power of nature</h3>
-        </div>
-    </a>
-    <a href="/pages/insects.html">
-        <div class="albums-div"><img src="/img/redblue_.jpg" alt="insect">
-            <h3 name="insects">Insects</h3>
-        </div>
-    </a></div>
+        <a href="/pages/birds.html">
+            <div class="albums-div"><img src="/img/vizestengelic_.jpg" alt="Tengelic">
+                <h3>Birds</h3>
+            </div>
+        </a>
+        <a href="/pages/powerofnature.html">
+            <div class="albums-div"><img src="/img/gleccserto_.jpg" alt="gleccserto">
+                <h3>Power of nature</h3>
+            </div>
+        </a>
+        <a href="/pages/insects.html">
+            <div class="albums-div"><img src="/img/redblue_.jpg" alt="insect">
+                <h3 name="insects">Insects</h3>
+            </div>
+        </a></div>
+    </div>
 </body>
 
 </html>
