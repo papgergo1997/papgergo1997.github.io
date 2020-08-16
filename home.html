@@ -1,42 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historian</title>
+    <style>
+        body {
+            height: 100%;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        .bg {
+            background-image: url("/img/background.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        img {
+            width: 35%;
+            margin-left: 0.2%;
+            margin-right: 0.2%;
+        }
+
+        p {
+            color:white;
+        }
+
+        h3 {
+            color: white;
+        }
+    </style>
 </head>
-<link rel="stylesheet" href="CSS/style.css">
-<style>
-    html {
-        background-image: url(/img/background_.jpg);
-        background-position: center;
-        background-repeat: repeat;
-        background-size: 150%;
-    }
-</style>
-<div class="Body-div">
+<link rel="stylesheet" href="../bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css">
 
-    <body>
-        <div class="Headline-div">
-            <h1>
-                Historian photography
-            </h1>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html">Historian photography</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/albums.html">Albums</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/wallpapers.html">Wallpapers</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+
+                <input class="form-control mr-sm-2" type="email" placeholder="Email">
+
+                <input class="form-control mr-sm-2" type="password" placeholder="Password">
+
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+            </form>
         </div>
-        <div class="menu">
-            <a href="/home.html">
-                <h2>Home</h2>
-            </a>
-            <a href="/pages/albums.html">
-                <h2>Albums</h2>
-            </a>
-            <a href="/pages/wallpapers.html">
-                <h2>Wallpapers</h2>
-            </a>
-            <a href="/pages/about.html">
-                <h2>About</h2>
-            </a></div>
-
+    </nav>
+    <div class="bg">
 
         <h3 id="Conceptheader">Concept</h3>
         <p class="Content">
@@ -59,31 +97,15 @@
 
         <div class="img-div">
             <img src="/img/izlandiponi_.jpg" alt="izlandiponi">
-            <img src="/img/geysir_.jpg" alt="geysir">
+            
             <img src="/img/gleccserhollo_.jpg" alt="gleccserhollo">
-            <img src="/img/redblue_.jpg" alt="redblue">
-            <img src="/img/izzo_.jpg" alt="izzo">
-            <img src="/img/Reykjavik_.jpg" alt="Reykjavik">
-            <img src="/img/gyertya_.jpg" alt="gyertya">
-
+           
         </div>
-        <H1>Login
-            <div class="login-div">
-                <div class="form-group">
-                    <label>Email</label>
-                    <input class="form-control" type="email" name="email">
-                </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input class="form-control" type="password" name="password">
-                </div>
-                <div class="form-group">
-                    <button class="submit-btn">Login</button>
-                </div>
+    </div>
 
-            </div>
-        </H1>
-    </body>
-</div>
+
+
+</body>
+
 
 </html>
