@@ -7,8 +7,28 @@
   <title>Historian</title>
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" href="../bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+
+<style>
+  html {
+    height: 100%;
+  }
+
+  .bg {
+    background-image: url("/img/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    margin-left: 1%;
+  }
+</style>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,19 +51,19 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="albums.html" id="navbarDropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Albums
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Albums
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Birds</a>
-              <a class="dropdown-item" href="#">Power of nature</a>
-              <a class="dropdown-item" href="#">Insects</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="albums.html">Albums page</a>
+            <a class="dropdown-item" href="/pages/birds.html">Birds</a>
+            <a class="dropdown-item" href="/pages/powerofnature.html">Power of nature</a>
+            <a class="dropdown-item" href="/pages/insects.html">Insects</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="albums.html">Albums page</a>
           </div>
-      </li>
+        </li>
+      </ul>
 
-      </ul>      
     </div>
   </nav>
 
@@ -80,6 +100,7 @@
       <div class="col-2"></div>
     </div>
   </div>
+
 </body>
 
 </html>
