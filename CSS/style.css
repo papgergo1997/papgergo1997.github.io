@@ -1,110 +1,287 @@
+
+
 @font-face {
-    font-family: "moderna";
-    src: url(Fonts/moderna/MODERNA_.TTF);
-    font-weight: 500;
-}
-@font-face {
-    font-family: "shadows";
-    src: url(Fonts/Shadows/ShadowsIntoLight-Regular.ttf);
-    font-weight: 400;
+    font-family: "roboto";
+    src: url(/Fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 200;
 }
 
-img {
-    width: 800px;
+body {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color:black;
-font-family: "moderna",sans-serif;
-text-align: center;
+
+
+header {
+    background-color: rgb(50, 50, 50);
+    height: 4em;
+    padding-left: 1em;
+    margin: 0;
+    line-height: 4em;
 }
 
-h2 {
-    color: black;
-    font-family:"moderna",sans-serif;
-    margin-right: 9%;
-    display: inline;
-    margin-left: 8%;
+header h3 {
+    margin: 0;
+    color: white;
+    font-family: "roboto";
 }
 
-h3 {
-    color: black;
-    font-family:"moderna",sans-serif;
+#nav.id ul {
+    list-style-type: none;
+        
 }
 
-#Conceptheader {
-    color: black ;
-margin-left: 0%;
+#nav-id ul li {
+    display: inline-block;     
+    width: 23.8%;    
 }
 
-#Realityheader {
-    margin-left: 0%;
-}
-
-.Content {
-    color: rgb(0, 0, 0);
-    font-family: "shadows","moderna",sans-serif;
-margin-left: 0%;
-font-size: 19px;
-}
-
-.bold {
-    font-weight: 800;
-}
-
-.img-div {
-    box-shadow: 0 0 20px black;
-    background-color: rgba(128, 128, 128, 0);
-margin-left: 0%;
-}
-
-.menu {
-    box-shadow: 0 0 20px black;
+.nav-button {
+    background-color: transparent;
+    color: inherit;
+    border-radius: 0;
+    border: 0;
+    font-family: "roboto";
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    display: inline-block;
     position: relative;
-margin-left: 0%;
 }
 
-.Headline-div { 
-    box-shadow: 0 0 20px black;
-   margin-left: 0%;
+section {
+    padding: 1em 1em;
+    background-color: transparent;
 }
 
-img {
+h4 {
+    font-family: "roboto"
+}
+
+p {
+    font-family: "roboto"
+}
+
+footer {
+    background-color: rgb(50, 50, 50);
+    height: 4em;
+    line-height: 4em;
+    padding-left: 1em;
+}
+
+.button {
+    background-color: transparent;
+    color: inherit;
+    border-radius: 0;
+    border: 0;
+    font: inherit;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-inner {
+    align-items: center;
+    background: cornflowerblue;
+    border: solid 2px transparent;
+    border-radius: 99em;
+    color: white;
+    display: flex;
+    font-weight: 600;
+    height: 2em;
+    min-width: 2.5em;
+    padding: 0 1em;
+    position: relative;
     box-shadow: 0 0 9px black;
-    margin: 0.5%;
-width: 32%;
+}
+/*
+.badge {
+    align-items: center;
+    background: crimson;
+    border: solid 2px white;
+    border-radius: 99em;
+    color: white;
+    display: flex;
+    font-size: 0.7em;
+    font-weight: 600;
+    height: 1.44em;
+    justify-content: center;
+    line-height: 1;
+    min-width: 1.44em;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+}
+*/
+
+
+/* Home page*/
+
+.home-body {
+    background-color: rgb(240, 240, 240);
+    background-image: url(/img/Gleccsertó-víz.jpg);
+    margin: 0;
+    padding: 0;
 }
 
-.albums-div {
-    display: inline;
+@media screen and (max-width:510px) {
+    .home-header {
+        overflow-wrap: break-word ;
+        overflow: hidden;
+        text-overflow: clip;
+        
+    }
+} 
+
+#index-main section article {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px rgba(50, 50, 50, 0.8);
 }
 
-.login-div {
+.home-images img {
+    width: 39%;
+    margin: 5%;
+    border: solid 2px black;
+    border-radius: 200px;
     box-shadow: 0 0 9px black;
-    background-color: cornflowerblue;
+}
+
+@media screen and (max-width:796px) {
+    .home-images img  {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.box {
+    width: 25%;
+    margin: 3.7%;
+    background-color: white;
+    text-align: center;
+    height: 5em;
+    line-height: 5em;
+    font-size: 2em;
+    border-radius: 100px;
+    border: solid 1px white;
+    box-shadow: 0 0 3px black;
     display: inline-block;
 }
 
-.login-div input {
-    display: block;
+@media screen and (max-width:796px) {
+    .box{
+        width: 100%;
+        margin-left: 0;
+    }
 }
 
-.login-div input[type="email"] {
-    border: solid 1px blue;
+/* Works page*/
+
+.works-projects article {
+    border-radius: 10px;
+    margin-bottom: 2em;
+    box-shadow: 0 0 9px black;
+    background-color: rgb(230, 230, 230);
 }
 
-.login-div input[name="password"] {
-    border: solid 1px red;
+.works-projects article img {
+    width: 25%;
 }
 
-.login-div button:hover {
-    box-shadow: 2px 2px 3px black;
+.works-projects article .work-aside {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
 }
 
-.login-div input:focus {
-    box-shadow: 2px 2px 3px black;
+/* Gallery page*/
+
+.gallery img {
+    width: 30.5%;
+    margin: 1.1%;
+    border: solid 2px black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
 }
 
-.albums-div input[name="insect"] {
-    color:white;
+@media screen and (max-width:600px) {
+    .gallery img {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
+
+/* About page */
+
+.about-body {
+    background-image: linear-gradient(240deg, #f1f1f1 0%, #f14b23 100%);
+}
+
+.about-image img {
+    width: 40%;
+}
+
+.bio img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 9px black;
+}
+
+.bio aside {
+    background-color: rgb(230, 230, 230);
+    width: 60%;
+    display: inline-block;
+    margin-left: 3em;
+    padding-left: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 9px black;
+}
+
+.bio aside h4 {
+    text-shadow: 2px 2px 2px rgba(50, 50, 50, 0.8);
+}
+
+.message-form {
+    background-color: rgb(230, 230, 230);
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 0 0 9px black;
+    width: 30%;
+}
+
+.form-group {
+    width: 100px;
+    margin-left: 2em;
+}
+
+.form-group textarea {
+    width: 200px;
+}
+
+.message-form button {
+    background-color: grey;
+    color: black;
+    border-radius: 3px;
+    border: solid 1px white;
+    margin-left: 2em;    
+}
+
+header, footer {
+    width: 100vw;
 }
