@@ -1,2 +1,0 @@
-# calculator
-java-project- calculator
